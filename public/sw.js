@@ -1,11 +1,11 @@
 // Service Worker para DK Semijóias PWA
 const CACHE_NAME = 'dk-semijoias-v1';
 const ASSETS_TO_CACHE = [
-  '/',
-  '/manifest.json',
-  '/assets/icon-192.svg',
-  '/assets/icon-512.svg',
-  '/assets/icon-maskable.svg'
+  '/dksemijoias/',
+  '/dksemijoias/manifest.json',
+  '/dksemijoias/assets/icon-192.svg',
+  '/dksemijoias/assets/icon-512.svg',
+  '/dksemijoias/assets/icon-maskable.svg'
 ];
 
 self.addEventListener('install', (event) => {
@@ -35,7 +35,7 @@ self.addEventListener('fetch', (event) => {
   if (event.request.mode === 'navigate') {
     event.respondWith(
       fetch(event.request).catch(() => {
-        return caches.match('/');
+        return caches.match('/dksemijoias/');
       })
     );
     return;

@@ -1,10 +1,10 @@
 {
-  "id": "/",
+  "id": "/dksemijoias/",
   "name": "DK Semijóias - Gestão & Vendas",
   "short_name": "DK Semijóias",
   "description": "Sistema de gestão de semijoias, controle de estoque com fotos, PDV com scanner de câmera, impressão de tags gravata e multiusuário.",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "/dksemijoias/",
+  "scope": "/dksemijoias/",
   "display": "standalone",
   "orientation": "any",
   "background_color": "#1c1917",
@@ -12,19 +12,19 @@
   "categories": ["business", "productivity", "shopping"],
   "icons": [
     {
-      "src": "/assets/icon-192.svg",
+      "src": "/dksemijoias/assets/icon-192.svg",
       "sizes": "192x192",
       "type": "image/svg+xml",
       "purpose": "any"
     },
     {
-      "src": "/assets/icon-512.svg",
+      "src": "/dksemijoias/assets/icon-512.svg",
       "sizes": "512x512",
       "type": "image/svg+xml",
       "purpose": "any"
     },
     {
-      "src": "/assets/icon-maskable.svg",
+      "src": "/dksemijoias/assets/icon-maskable.svg",
       "sizes": "512x512",
       "type": "image/svg+xml",
       "purpose": "maskable"
