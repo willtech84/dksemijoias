@@ -1,0 +1,7 @@
+{
+  "name": "DK Semijóias - Gestão & Vendas",
+  "description": "Sistema completo para gestão de estoque, vendas PDV, consignações, cobranças e catálogo vitrine da DK Semijóias, otimizado para celular e computador com suporte a múltiplos usuários.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
